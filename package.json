@@ -1,6 +1,7 @@
 {
   "name": "reverie-challenge",
   "version": "0.1.0",
+  "homepage": "https://jennlynn.github.io/interview_challenge-march_2023/",
   "private": true,
   "dependencies": {
     "@rdkit/rdkit": "^2022.9.5-1.0.0",
@@ -26,7 +27,9 @@
     "eject": "react-scripts eject",
     "docker-build": "docker build --tag rev-challenge .",
     "docker-run": "docker run --init -p 3000:3000 --name rev-challenge rev-challenge",
-    "docker-stop": "docker container stop"
+    "docker-stop": "docker container stop",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
