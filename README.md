@@ -6,12 +6,12 @@ _Note: For best experience, I suggest viewing it in Chrome or Firefox._
 <hr />
 
 ## To Use
-Enter `CHEMBLID` in the search field to display information below. 
+Enter a `CHEMBLID` (ex `CHEMBL5552`)  in the search field to display information below. 
 
 Under the hood this is a `create-react-app` app with Docker, so the typical scripts will work with this repo.
 
 ### scripts
- | | |
+ | command | what it does |
  |---|---|
  | `npm start` | Runs the app in the development mode. <br /> Open [http://localhost:3000](http://localhost:3000) to view it in your browser. |
  | `npm test` |  (note: I did not write tests given the time constraint) <br /> Launches the test runner in the interactive watch mode. <br /> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information. |
@@ -37,7 +37,7 @@ Under the hood this is a `create-react-app` app with Docker, so the typical scri
   - I used a `ChatGPT` assist to get the stat calculations. (I can do it easily in plain math, but it's trickier in JS, haha)
   - I found examples of Molecular Structures in `rdkit-js`'s GitHub so I just used [that](https://github.com/rdkit/rdkit-js/blob/master/examples/react/src/components/MoleculeStructure/MoleculeStructure.js).
 - Then I did a quick round of testing, and quick code review. 
-- Finally I set up Docker and pushed the repo up to GitHub and set it up with GitHub Pages. And since that requires a public repo, I tried to obfuscate the name a little so it wasn't easily discoverable for future candidates.
+- Finally I started to set up Docker, got a little stuck, so I pushed the repo up to GitHub Pages. And since that requires a public repo, I tried to obfuscate the name a little so it wasn't easily discoverable for future candidates. After the alloted time I went back and sorted out the Docker issue.
 
 
 ### Decisions Made:
@@ -50,7 +50,7 @@ Under the hood this is a `create-react-app` app with Docker, so the typical scri
 | used `Axios`                | nice, simple HTTP client for getting the data, easy for JSON, good error handling, great docs |
 | used `react-simple-popover` | lightweight, hooks-compatible, clear docs |
 | used `RDKit`                | per recommendation
-| used `GitHub Pages` | because I'm familiar with it and it will allow me to share a useable app with the Reverie team, since I didn't build a backend this seemed as good as Docker/AWS |
+| used `GitHub Pages`         | because I'm familiar with it and it will allow me to share a useable app with the Reverie team, since I didn't build a backend this seemed as good as Docker/AWS |
 
 
 
