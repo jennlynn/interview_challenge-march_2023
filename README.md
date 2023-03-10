@@ -10,8 +10,8 @@ Enter a `CHEMBLID` (ex `CHEMBL5552`)  in the search field to display information
 
 Under the hood this is a `create-react-app` app with Docker, so the typical scripts will work with this repo.
 
-### scripts
- | command | what it does |
+### Scripts
+ | Command | What it does |
  |---|---|
  | `npm start` | Runs the app in the development mode. <br /> Open [http://localhost:3000](http://localhost:3000) to view it in your browser. |
  | `npm test` |  (note: I did not write tests given the time constraint) <br /> Launches the test runner in the interactive watch mode. <br /> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information. |
