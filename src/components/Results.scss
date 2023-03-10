@@ -1,0 +1,32 @@
+.Results {
+  padding: 50px;
+  &-content {
+    padding-top: 50px;
+  }
+  &-accentText {
+    color: #6782ca;
+  }
+  &-listName {
+    color: #666;
+    padding-top: 30px;
+  }
+  &-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0; // overriding default ul style
+  }
+  &-listItem {
+    min-width: 150px;
+    min-height: 100px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 5px;
+  }
+  &-listItemName {
+    color: #39606f;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,62 @@
+.Header {
+  background-color: white;
+  box-shadow: 0 0 5px #ccc;
+  height: 80px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  &-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  &-logo {
+    pointer-events: none;
+    @media (prefers-reduced-motion: no-preference) {
+      animation: App-logo-spin infinite 40s linear;
+    }
+  }
+  &-button {
+    height: 50px;
+    width: 50px;
+    // specificity required to override bootstrap default
+    &.btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &-popoverContent {
+    background: #fff;
+    color: #666;
+    padding: 40px 20px;
+    box-shadow: 0 0 5px #ccc;
+    max-width: 200px;
+  }
+}
+
+////////////
+// animation
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
