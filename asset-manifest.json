@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/interview_challenge-march_2023/static/css/main.b9569fdc.css",
+    "main.js": "/interview_challenge-march_2023/static/js/main.d9b9d50d.js",
+    "static/js/787.67add6fc.chunk.js": "/interview_challenge-march_2023/static/js/787.67add6fc.chunk.js",
+    "static/media/logo_hexagon.svg": "/interview_challenge-march_2023/static/media/logo_hexagon.6e45cf357ea04c105d5315867a224569.svg",
+    "static/media/history.svg": "/interview_challenge-march_2023/static/media/history.ad5665f4c7d28c7bab0fc3eb7ff66c0e.svg",
+    "index.html": "/interview_challenge-march_2023/index.html",
+    "main.b9569fdc.css.map": "/interview_challenge-march_2023/static/css/main.b9569fdc.css.map",
+    "main.d9b9d50d.js.map": "/interview_challenge-march_2023/static/js/main.d9b9d50d.js.map",
+    "787.67add6fc.chunk.js.map": "/interview_challenge-march_2023/static/js/787.67add6fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9569fdc.css",
+    "static/js/main.d9b9d50d.js"
+  ]
+}
